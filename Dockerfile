@@ -1,7 +1,7 @@
 FROM python:3.8-slim-buster
 
-LABEL maintainer="Aiden Gilmartin" \
-    description="Speedtest to InfluxDB data bridge"
+LABEL maintainer="Joshua Noakes" \
+    description="Speedtest to InfluxDB data bridge | Origin: https://github.com/aidengilmartin/speedtest-to-influxdb"
 
 # Install dependencies
 ENV DEBIAN_FRONTEND=noninteractive

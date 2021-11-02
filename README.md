@@ -1,3 +1,4 @@
+## This fork creates a docker image on Github Container Registry using Github Actions
 # Speedtest to InfluxDB
 
 This is a small Python script that will continuously run the Speedtest CLI application by Ookla, reformat the data output and forward it on to an InfluxDB database.
