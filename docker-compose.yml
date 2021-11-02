@@ -3,7 +3,7 @@ services:
 
   speedtest:
     container_name: speedtest
-    build: .
+    image: ghcr.io/joshua-noakes1/speedtest-to-influxdb:amd64 # amd64, arm64, armhf
     restart: unless-stopped
     env_file:
       - ./docker_env/speedtest.env
